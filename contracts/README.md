@@ -29,8 +29,10 @@ foundryup
 
 ```bash
 cd contracts
+
 # If the repository does not vendor the `lib/` directory, install external libraries:
 forge install
+
 # If you manage dependencies via git submodules instead, run:
 git submodule update --init --recursive
 ```
