@@ -1,0 +1,20 @@
+# Build artifacts produced by forge
+cache/
+out/
+forge-artifacts/
+
+# Keep the broadcast directory but drop local/dry-run data
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Generated documentation and reports
+docs/
+reports/
+coverage/
+*.gas-snapshot
+
+# Local environment files
+.env
+.env.*
+!.env.example
