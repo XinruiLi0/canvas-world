@@ -31,8 +31,10 @@ Prepare dependencies and build/test the contracts:
 
 ```bash
 cd contracts
+
 # If the repo does not vendor `lib/`, install external libraries
 forge install
+
 # If dependencies are managed via git submodules:
 git submodule update --init --recursive
 
@@ -45,6 +47,7 @@ forge test
 
 ```bash
 cd ../frontend
+
 # Install dependencies (choose one)
 npm install
 # or
